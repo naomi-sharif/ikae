@@ -1,0 +1,39 @@
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    padding: 1.25rem 2.5rem;
+}
+
+.main-nav-list {
+    list-style-type: none;
+    margin: 0;
+    display: flex;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    color: $secondary-color;
+    align-items: center;
+}
+
+.main-nav-list__item {
+    padding-left: 1.5rem;
+    transition: 200ms;
+}
+
+.main-nav-list__item:hover {
+    color: $primary-color;
+}
+
+.logo {
+    height: 2rem;
+    width: 6rem;
+}
+
+.main-nav-list__item--search {
+    color: $primary-color;
+    font-size: 1.25rem;
+    cursor: pointer;
+}

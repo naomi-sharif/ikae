@@ -1,0 +1,58 @@
+.categories--container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.categories--image {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.categories--image__1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.45),  rgba(0, 0, 0, 0.45)), url("../img/bathroom.jpeg");
+    background-size: cover;
+}
+
+.categories--image__1:hover {
+    background-image: url("../img/bathroom.jpeg");
+}
+
+.categories--image__2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.45),  rgba(0, 0, 0, 0.45)), url("../img/kitchen.jpeg");
+    background-size: cover;
+}
+
+.categories--image__3 {
+    background: linear-gradient(rgba(0, 0, 0, 0.45),  rgba(0, 0, 0, 0.45)), url("../img/bedroom.jpeg");
+    background-size: cover;
+}
+
+.categories--image__4 {
+    background: linear-gradient(rgba(0, 0, 0, 0.45),  rgba(0, 0, 0, 0.45)), url("../img/living.jpeg");
+    background-size: cover;
+}
+
+.categories--image__caption {
+    margin: 0;
+    font-size: 2.75rem;
+    font-weight: 500;
+    color: white;
+    letter-spacing: .2rem;
+    text-transform: uppercase;
+    line-height: 1;
+    text-align: center;
+}
+
+.categories--title {
+    background-color: $banner-color;
+    padding: 2.75rem 0 2.75rem 9rem;
+    margin: 4rem 0 0 0;
+    letter-spacing: .1rem;
+    font-size: 2rem;
+    text-transform: capitalize;
+
+}

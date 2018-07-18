@@ -1,0 +1,17 @@
+.hero {
+    height: 100vh;
+    background: url("../img/header.jpeg");
+    background-position: center bottom;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero--title {
+    margin-top: 0;
+    color: $primary-color;
+    text-transform: uppercase;
+    font-size: 5rem;
+    font-weight: 700;
+    letter-spacing: .2rem;
+}
