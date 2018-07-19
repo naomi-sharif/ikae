@@ -457,7 +457,8 @@ template {
 
 .categories--image__overlay {
   background: rgba(0, 0, 0, 0.45);
-  position: absolute; }
+  position: absolute;
+  height: 100%; }
 
 .footer {
   display: flex;
