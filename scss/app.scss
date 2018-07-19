@@ -19,7 +19,11 @@ html {
     font-weight: 400;
     color: $primary-color;
 }
-
+.body {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+}
 .wrapper {
     display: flex;
     flex-direction: column;
