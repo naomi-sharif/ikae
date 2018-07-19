@@ -452,11 +452,6 @@ template {
   font-size: 2rem;
   text-transform: capitalize; }
 
-.categories--image__overlay {
-  background: rgba(0, 0, 0, 0.45);
-  position: absolute;
-  height: 100%; }
-
 .footer {
   display: flex;
   justify-content: center;
