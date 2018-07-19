@@ -462,7 +462,8 @@ template {
   letter-spacing: .1rem;
   font-weight: 100;
   color: #B1A38F;
-  font-size: .85rem; }
+  font-size: .85rem;
+  margin: auto auto 0 auto; }
 
 /*Base Styles*/
 * {
