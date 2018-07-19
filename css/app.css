@@ -459,7 +459,7 @@ template {
   background-color: rgba(0, 0, 0, 0.45);
   position: absolute;
   height: 100%;
-  width: auto; }
+  width: 100%; }
 
 .footer {
   display: flex;
