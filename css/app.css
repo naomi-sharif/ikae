@@ -453,7 +453,7 @@ template {
   text-transform: capitalize; }
 
 .categories--image__overlay {
-  background-color: rgba(0, 0, 0, 0.45);
+  background-color: rgba(0, 0, 255, 0.5);
   width: 100px;
   height: 100px;
   position: absolute; }
