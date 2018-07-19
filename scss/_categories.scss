@@ -52,3 +52,10 @@
     text-transform: capitalize;
 
 }
+
+.categories--image__container {
+    background-color: rgba(0, 0, 0, .45);
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}

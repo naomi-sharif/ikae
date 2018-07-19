@@ -452,6 +452,12 @@ template {
   font-size: 2rem;
   text-transform: capitalize; }
 
+.categories--image__container {
+  background-color: rgba(0, 0, 0, 0.45);
+  width: 100px;
+  height: 100px;
+  position: absolute; }
+
 .footer {
   display: flex;
   justify-content: center;
