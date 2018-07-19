@@ -474,3 +474,8 @@ html {
   line-height: 1.5;
   font-weight: 400;
   color: #4a4a4a; }
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; }
