@@ -412,6 +412,7 @@ template {
   justify-content: space-between; }
 
 .categories--image {
+  width: 100%;
   height: 500px;
   display: flex;
   align-items: center;
