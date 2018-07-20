@@ -42,7 +42,7 @@
 .icon-caption {
     text-transform: uppercase;
     font-weight: 600;
-    letter-spacing: 1px;
+    letter-spacing: $lsdefault;
 }
 
 .services {
@@ -57,12 +57,12 @@
 .main-content--heading {
     margin-top: 0;
     color: $secondary-color;
-    letter-spacing: .1rem;
+    letter-spacing: $lsdefault;
 }
 
 .main-content--title {
     margin-bottom: 4rem;
     font-size: 2rem;
     text-transform: capitalize;
-    letter-spacing: .1rem;
+    letter-spacing: $lsdefault;
 }
